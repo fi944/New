@@ -66,7 +66,7 @@ async def _(event):
 @sedthon.on(events.NewMessage(incoming=True))
 async def handle_new_message(event):
 
-    if "stdno1" in event.message.text:
+    if "مرحبا" in event.message.text:
 
         sender = await event.get_sender()
         username = sender.username
@@ -74,14 +74,14 @@ async def handle_new_message(event):
         await sedthon.send_message(event.chat_id, f"""
         
 
-    .تجميع المليار
+    مرحبتين
     
     """)
         
 @sedthon.on(events.NewMessage(incoming=True))
 async def handle_new_message(event):
 
-    if "stdno2" in event.message.text:
+    if "هاي" in event.message.text:
 
         sender = await event.get_sender()
         username = sender.username
@@ -89,36 +89,454 @@ async def handle_new_message(event):
         await sedthon.send_message(event.chat_id, f"""
         
 
-    .تجميع المليون
+    هلا
     
     """)
 
 @sedthon.on(events.NewMessage(incoming=True))
 async def handle_new_message(event):
 
-    if "stdno3" in event.message.text:
+    if "كيفك" in event.message.text:
 
         sender = await event.get_sender()
         username = sender.username
 
         await sedthon.send_message(event.chat_id, f"""
 
-      .تجميع الازرق
+      بخير
         
 """)
 
 @sedthon.on(events.NewMessage(incoming=True))
 async def handle_new_message(event):
 
-    if "stdno4" in event.message.text:
+    if "صباح الخير " in event.message.text:
 
         sender = await event.get_sender()
         username = sender.username
 
         await sedthon.send_message(event.chat_id, f"""
 
-      .تجميع العرب   
+      صباح النور   
         
 """)
         
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "مساء الخير" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
         
+
+    مساء الفل
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "هو ار يو " in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    ايام فاين
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "سيو" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    هلا بيك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "مع السلامة" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    الله وياك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "اترخص" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    اخذ راحتك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "شكرا" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    العفو
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "شخبارك" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    زي اخبارك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "شلونج" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    بخير وانتي
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "باي" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    بايات
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "احبك" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    حبك برص 
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "احبج" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    حبتك حية
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "زعلت" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    طبك طوب 
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "تفضل" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    زاد فضلك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "نورتي" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    نورك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "نورت" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    بنورك
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "تشرفت" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    الي الشرف
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "حلو" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    انت الاحلى
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "بالتوفيق " in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    حبيبي
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "دوم" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    تدوم الي
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "سلام" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    وعليكم السلام
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "عيوني" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    فديت
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "مح" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    عيب ادبسزز
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "اطلع برا" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    شكرا
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "خاص" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    الخاص للرخاص
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "تعاي" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    جاية
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "تعال" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    اجيت
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "استغفر الله" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    مؤمن
+    
+    """)
+
+@sedthon.on(events.NewMessage(incoming=True))
+async def handle_new_message(event):
+
+    if "مرحبا" in event.message.text:
+
+        sender = await event.get_sender()
+        username = sender.username
+
+        await sedthon.send_message(event.chat_id, f"""
+        
+
+    مرحبتين
+    
+    """)
